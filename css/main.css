@@ -87,6 +87,11 @@ main {
 .produits {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 .produits li {
@@ -103,8 +108,13 @@ main {
     margin: 0;
     padding: 1.5rem .75rem;
     border: 2px #151515 solid;
-    float: left;
-    width: 50%;
+    display: inline-block;
+    flex-basis: 50%;
+}
+
+.produits img {
+    max-width: 400px;
+    height: auto;
 }
 
 .produits figcaption {
