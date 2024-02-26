@@ -49,6 +49,21 @@ header img {
     max-height: 80px;
 }
 
+/********** STYLE FOOTER *********/
+footer {
+    background-color: #151515;
+    margin-top: 2rem;
+    padding: 20px 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+footer p {
+
+}
+
 /********** STYLE NAVIGATION *********/
 
 header nav ul {
